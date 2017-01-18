@@ -1,0 +1,25 @@
+enabled: '1'
+class: ''
+title: ''
+nav: disable
+dots: disable
+autoplay: disable
+autoplaySpeed: ''
+imageOverlay: disable
+items:
+  -
+    image: 'gantry-media://header/steinway.jpg'
+    title: 'STEINWAY RECORDING'
+    desc: ''
+    link: ''
+    linktext: ''
+    buttonclass: ''
+    name: Steinway
+  -
+    image: 'gantry-media://header/steinway.jpg'
+    title: 'STEINWAY RECORDING'
+    desc: ''
+    link: ''
+    linktext: ''
+    buttonclass: ''
+    name: Steinway

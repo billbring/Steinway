@@ -1,0 +1,10 @@
+favicon: ''
+touchicon: ''
+css:
+  -
+    location: ''
+    inline: "h1.g-owlcarousel-item-title {\ntext-shadow: 2px 3px 7px rgba(0, 0, 0, 0.8);\nletter-spacing: 0.2rem;\n}\nh2.g-owlcarousel-item-desc {\ntext-shadow: 2px 3px 7px rgba(0, 0, 0, 0.8);\n}"
+    extra: {  }
+    priority: '0'
+    name: 'title shadow'
+javascript: {  }

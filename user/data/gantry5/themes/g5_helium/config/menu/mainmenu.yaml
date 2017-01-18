@@ -1,0 +1,49 @@
+settings:
+  title: Mainmenu
+ordering:
+  home: ''
+  the-piano: ''
+  the-space:
+    kit-list: ''
+    the-build: ''
+  spencer-cozens: ''
+  contact: ''
+items:
+  home:
+    enabled: true
+    anchor_class: ''
+  the-piano:
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+  the-space:
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    anchor_class: ''
+  the-space/kit-list:
+    enabled: true
+    anchor_class: ''
+  the-space/the-build:
+    enabled: true
+    anchor_class: ''
+  spencer-cozens:
+    enabled: true
+    anchor_class: ''
+  contact:
+    enabled: true
+    anchor_class: ''
+  styles/__particle-2IjaB:
+    type: particle
+    particle: custom
+    title: 'Custom HTML'
+    options:
+      particle:
+        enabled: '1'
+        html: "<div class=\"g-grid g-preset-thumbnails center\">\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset1\">\n                <img src=\"gantry-media://styles/preset1.png\" alt=\"Preset 1\">\n                <br />\n                <span>Preset 1</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset2\">\n                <img src=\"gantry-media://styles/preset2.png\" alt=\"Preset 2\">\n                <br />\n                <span>Preset 2</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset3\">\n                <img src=\"gantry-media://styles/preset3.png\" alt=\"Preset 3\">\n                <br />\n                <span>Preset 3</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset4\">\n                <img src=\"gantry-media://styles/preset4.png\" alt=\"Preset 4\">\n                <br />\n                <span>Preset 4</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset5\">\n                <img src=\"gantry-media://styles/preset5.png\" alt=\"Preset 5\">\n                <br />\n                <span>Preset 5</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset6\">\n                <img src=\"gantry-media://styles/preset6.png\" alt=\"Preset 6\">\n                <br />\n                <span>Preset 6</span>\n            </a>\n        </div>\n    </div>    \n</div>"
+      block:
+        extra: {  }
+    enabled: true
+    anchor_class: ''
