@@ -1,0 +1,13 @@
+email: joelsmith353@gmail.com
+fullname: 'Joel Smith'
+title: Administrator
+state: enabled
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+    pages: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$nk5y3hXmLqodJOkrNTbtXu53MpQX9oYT6me/YKLGF94pC1V9p37iW
+language: en
