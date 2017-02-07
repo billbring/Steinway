@@ -3,6 +3,7 @@ settings:
 ordering:
   home: ''
   the-piano: ''
+  __particle-P5emm: ''
   the-space:
     kit-list: ''
     the-build: ''
@@ -13,7 +14,7 @@ items:
     enabled: true
     anchor_class: ''
   the-piano:
-    enabled: '1'
+    enabled: '0'
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
@@ -47,3 +48,16 @@ items:
         extra: {  }
     enabled: true
     anchor_class: ''
+  __particle-P5emm:
+    type: particle
+    particle: custom
+    title: 'Custom HTML'
+    options:
+      particle:
+        enabled: '1'
+        html: '<a href=#piano >The Piano</a>'
+        twig: '0'
+        filter: '0'
+      block:
+        extra: {  }
+    enabled: '1'

@@ -1,0 +1,10 @@
+atoms:
+  -
+    id: lightcase-9268
+    type: lightcase
+    title: Lightcase
+    inherit:
+      outline: default
+      atom: lightcase-9268
+      include:
+        - attributes

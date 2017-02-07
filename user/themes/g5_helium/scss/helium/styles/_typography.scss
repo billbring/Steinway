@@ -76,31 +76,3 @@ hr {
     margin: 1.5rem 0;
     border-bottom: 1px solid $rule-color;
 }
-
-// multi-column Text
-.multi-column  {
-  //-webkit-column-rule: 1px solid #fff;
-  //-moz-column-rule: 1px solid #fff;
-  //column-rule: 1px solid #fff;
-  -webkit-column-gap: 3rem;
-  -moz-column-gap: 3rem;
-  column-gap: 3rem;
-  margin-bottom: 3rem;
-  display: inline-block
-
-  p {margin-top: 0}
-}
-
-.column-3  {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  column-width: 200px;
-}
-
-.column-2  {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  column-width: 330px;
-}

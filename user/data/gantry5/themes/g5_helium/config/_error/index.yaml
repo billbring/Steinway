@@ -1,5 +1,5 @@
 name: _error
-timestamp: 1484419189
+timestamp: 1484951913
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -20,9 +20,6 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  logo:
-    logo-9608: 'Logo / Image'
-    logo-9571: 'Logo / Image'
   menu:
     menu-6409: Menu
   social:
@@ -33,8 +30,8 @@ particles:
     system-content-1587: 'Page Content'
   copyright:
     copyright-1736: Copyright
-  horizontalmenu:
-    horizontalmenu-9034: 'Horizontal Menu'
+  spacer:
+    spacer-spacer-4491: Spacer
   totop:
     totop-8670: 'To Top'
   mobile-menu:

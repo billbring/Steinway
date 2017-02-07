@@ -8,7 +8,7 @@ autoplaySpeed: ''
 imageOverlay: disable
 items:
   -
-    image: 'gantry-media://header/steinway.jpg'
+    image: /steinway/user/pages/01.home/steinway-recording.jpg
     title: 'STEINWAY RECORDING'
     desc: ''
     link: ''
@@ -16,8 +16,8 @@ items:
     buttonclass: ''
     name: Steinway
   -
-    image: 'gantry-media://header/steinway.jpg'
-    title: 'STEINWAY RECORDING'
+    image: /steinway/user/pages/01.home/steinway-recording.jpg
+    title: ''
     desc: ''
     link: ''
     linktext: ''

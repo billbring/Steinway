@@ -1,5 +1,7 @@
 ---
 title: Contact
+taxonomy:
+    category: contact
 form:
     fields:
         name:

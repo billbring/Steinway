@@ -1,4 +1,5 @@
 title: 'Steinway Recording'
+default_lang: en
 author:
   name: 'Spencer Cozens'
   email: joelsmith353@gmail.com
@@ -6,7 +7,7 @@ taxonomies:
   - category
   - tag
 metadata:
-  description: 'A dedicated recording facility for a new Steinway model B grand piano.'
+  description: 'A Dedicated Recording Facility For a Steinway Model B Grand Piano.'
 summary:
   enabled: true
   format: short

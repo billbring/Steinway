@@ -6,9 +6,7 @@ preset:
 layout:
   /navigation/:
     -
-      - 'logo-9608 15'
-      - 'spacer-6015 65'
-      - 'social-3171 20'
+      - spacer-6015
   /header/:
     -
       - custom-7185
@@ -30,10 +28,9 @@ layout:
         'sidebar 25': {  }
   /footer/:
     -
-      - 'logo-9571 10'
-      - 'copyright-1736 30'
-      - 'spacer-8094 45'
-      - 'totop-8670 15'
+      - 'copyright-1736 33'
+      - 'spacer-8094 48'
+      - 'totop-8670 19'
   /offcanvas/: {  }
 structure:
   navigation:
@@ -85,18 +82,9 @@ structure:
     attributes:
       boxed: ''
 content:
-  logo-9608:
-    title: 'Logo / Image'
-  social-3171:
-    block:
-      class: g-social-header
   custom-7185:
     title: 'Custom HTML'
     attributes:
       html: "<h2 class=\"g-title\">Offline</h2>\n<p>Sorry, We are Down for Maintenance.</p>"
-  logo-9571:
-    title: 'Logo / Image'
-    attributes:
-      image: 'gantry-media://logo/logo-footer.svg'
   totop-8670:
     title: 'To Top'

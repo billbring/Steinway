@@ -159,7 +159,7 @@ admin/templates/menu/empty.html.twig	0d787eff5f3aac2da1d9c9447b4ec7d0
 admin/templates/menu/item.html.twig	6a66c2f65aa66a5d965b2aaa28403e1e
 admin/templates/menu/list.html.twig	92ccda37ff2df62357e7e1cbc994806e
 admin/templates/modals/atom-preview.html.twig	a4d48349369a97448c95a2f8e3e30f4e
-admin/templates/modals/atom.html.twig	977c21f1941e62180d511f7d9a4f442b
+admin/templates/modals/atom.html.twig	00f371144f806f4a27b36250fdd5e519
 admin/templates/modals/module-picker.html.twig	5ff2331adb1726ef2351f7ab9264a9c1
 admin/templates/modals/particle-picker.html.twig	d42a4615e35b361bd6443d08e2d1fcba
 admin/templates/modals/particle.html.twig	727a820ef39de00d2da3a6a12a32d7a5
@@ -168,7 +168,7 @@ admin/templates/pages/configurations/assignments/assignments.html.twig	5ead0ac88
 admin/templates/pages/configurations/layouts/container.html.twig	44a1f3fe1f086b92db6a22d3cb70e9d7
 admin/templates/pages/configurations/layouts/create.html.twig	d62ea3b40a14d0704309ff2cdf2ad843
 admin/templates/pages/configurations/layouts/edit.html.twig	01b153485a1e2790dfa129f68b39b128
-admin/templates/pages/configurations/layouts/particle-card.html.twig	43ba225ee76a650a095992efc33b051e
+admin/templates/pages/configurations/layouts/particle-card.html.twig	964a7c21e6a0a695a95fba7af0d954e2
 admin/templates/pages/configurations/layouts/particle-preview.html.twig	79dcbbba34b11ab26f2196c61521ecf5
 admin/templates/pages/configurations/layouts/particle.html.twig	02c027b8b5552a7f51fccf7895139413
 admin/templates/pages/configurations/layouts/section.html.twig	0cc0c30422977e5a007dc3dbc2a0fdc4
@@ -243,7 +243,7 @@ VERSION	1910ba5370af59f46175f5086b53489a
 gantry5.yaml	1ee7af301cb9f93c22367cbacad99a5b
 hebe.json	89ee8d6347efd5a6066620a45289fdec
 src/Loader.php	ca2419dbbc6aa32be63ffab39f0e3cb2
-src/RealLoader.php	68769dcc31b6df373dff6eda44cc0ae9
+src/RealLoader.php	d0dba37ffaf3e955ade7a1bbee5c0163
 src/bootstrap.php	c0596c070aa6a3c63292a82f6a2feb32
 src/vendor/leafo/scssphp/src/Base/Range.php	16cbe0395692252a55d39144f277f247
 src/vendor/leafo/scssphp/src/Compiler/Environment.php	db02536f79b353a5ca9458defde4c7ba
@@ -274,10 +274,10 @@ src/vendor/composer/installed.json	d6c0f9ef8e4621b05008db159a0169d8
 src/vendor/composer/autoload_namespaces.php	35e12c7d76c4a81633bcf547c0e229a9
 src/vendor/composer/autoload_psr4.php	ae38a847f23c2a5631c2dfd940a88188
 src/vendor/composer/autoload_classmap.php	8645d3a4e3ad87e7cf4d88a46717aab4
-src/vendor/composer/autoload_static.php	5db68d1933ed49186af62ae9acd0b80b
-src/vendor/composer/autoload_real.php	08940911b7090b4bc7549ca406a96f7b
+src/vendor/composer/autoload_static.php	6f7213eb1cecc82651d44a9868619a27
+src/vendor/composer/autoload_real.php	52097e08886ebdd734b5f71fc42469ba
 src/vendor/composer/ClassLoader.php	d925befc389a2a2d5ecb76b81899d775
-src/vendor/autoload.php	bb5d26ae6c01a391eaa2447e665399e4
+src/vendor/autoload.php	cb0112d70c5707cfc972b553ff7f4432
 src/classes/Gantry/Admin/Controller/Html/Configurations/Assignments.php	ca0c3f946280491f4d3405cdebbb0d54
 src/classes/Gantry/Admin/Controller/Html/Configurations/Layout.php	21825d124d90c99e9d095971ba785d0a
 src/classes/Gantry/Admin/Controller/Html/Configurations/Page.php	1ee866114a41fd26f9af2a4c15478549
@@ -325,7 +325,7 @@ src/classes/Gantry/Component/Content/Block/ContentBlock.php	cdae900ee4f4061e404c
 src/classes/Gantry/Component/Content/Block/ContentBlockInterface.php	77eb2eb1912c772e1df08b0b85b6f4c6
 src/classes/Gantry/Component/Content/Block/HtmlBlock.php	11fce6a48007a6810f6e8faf52ed1f69
 src/classes/Gantry/Component/Content/Block/HtmlBlockInterface.php	d07876e7fd8ed7d7627bd1299d7886a5
-src/classes/Gantry/Component/Content/Document/HtmlDocument.php	34a1bf19111c10e39721c5315575b16d
+src/classes/Gantry/Component/Content/Document/HtmlDocument.php	f6a04996170e3744050ff34b936cd7f5
 src/classes/Gantry/Component/Controller/BaseController.php	c7a413caf323f0ef2b0c150c6a38929a
 src/classes/Gantry/Component/Controller/HtmlController.php	7564c530b17f8a128ae3b577e772f374
 src/classes/Gantry/Component/Controller/JsonController.php	9afcc6343628a0f4960d752d617a5f7a
@@ -365,7 +365,7 @@ src/classes/Gantry/Component/Theme/AbstractTheme.php	5c9c1d519dd5db366e3918f2aa8
 src/classes/Gantry/Component/Theme/ThemeDetails.php	575e9adb9432cf5203babbc48948c407
 src/classes/Gantry/Component/Theme/ThemeInstaller.php	6ded33bce5bbddf44ba7473520f83916
 src/classes/Gantry/Component/Theme/ThemeInterface.php	c367c7edb46ac65ede26aac9d18dbad8
-src/classes/Gantry/Component/Theme/ThemeTrait.php	253ee15bc05a1a85180859ff5af8efc7
+src/classes/Gantry/Component/Theme/ThemeTrait.php	8984dc989549006c4b7291f63a700f5b
 src/classes/Gantry/Component/Translator/Translator.php	096f712ac609e018013a738e5f9c68d0
 src/classes/Gantry/Component/Translator/TranslatorInterface.php	574e98e9c253675feb00b79358579a82
 src/classes/Gantry/Component/Twig/TokenParserAssets.php	93b26462a9d00f884f9bc1ab3bad7879
@@ -653,7 +653,7 @@ engines/nucleus/templates/partials/author.html.twig	b20f6e736d0d6c0dc59c0a61ce2d
 engines/nucleus/templates/partials/base.html.twig	a941197b4afea4220e462825401ca5b3
 engines/nucleus/templates/partials/blog_item.html.twig	954b52c532bf58b6837172e21f04c061
 engines/nucleus/templates/partials/metadata.html.twig	e594f19595ce28532b22104c01897aa8
-engines/nucleus/templates/partials/module.html.twig	42a56621a9bbe6f156520d8ab89a3955
+engines/nucleus/templates/partials/module.html.twig	6b4f472f97a1951d07b6ef142186dfda
 engines/nucleus/templates/partials/page.html.twig	5c31f4ed7176588d17c6ae7b30f5e3a5
 engines/nucleus/templates/partials/page_head.html.twig	9c82fc47fa1ef554e3694bc2073694ec
 engines/nucleus/templates/modular/features.html.twig	fdaf0315a07a602b7b5b5166c1727415
@@ -672,6 +672,6 @@ engines/nucleus/templates/modular.html.twig	acdb55537225cbcf806599c0a22ae02f
 engines/nucleus/templates/offline.html.twig	2de95ef64a16082cf7e7d9da4e8dac0c
 engines/nucleus/templates/snipcart.html.twig	aa7194c3ef9d32e5f74a8eb1751898b8
 engines/nucleus/yarn.lock	a92af1149f16aca4120151737aaff23b
-blueprints.yaml	db340a42bf8b0979a35ffe00f67ccfa2
+blueprints.yaml	290caa828c7c0f553ca296860eb30024
 gantry5.php	a23bc66e10ec902764288e235298f2c4
 MD5SUMS	d41d8cd98f00b204e9800998ecf8427e

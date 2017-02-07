@@ -1,4 +1,0 @@
----
-title: 'Spencer Cozens'
----
-

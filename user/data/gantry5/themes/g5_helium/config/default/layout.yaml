@@ -6,9 +6,8 @@ preset:
 layout:
   /navigation/:
     -
-      - 'logo-9608 15'
-      - 'menu-6409 65'
-      - 'social-3171 20'
+      - 'menu-6409 73'
+      - 'social-3171 27'
   /header/: {  }
   /intro/: {  }
   /features/: {  }
@@ -84,10 +83,6 @@ structure:
     attributes:
       boxed: ''
 content:
-  logo-9608:
-    title: 'Logo / Image'
-    attributes:
-      enabled: 0
   menu-6409:
     attributes:
       menu: mainmenu
@@ -100,14 +95,5 @@ content:
     title: Sidebar
     attributes:
       key: sidebar
-  copyright-1736:
-    attributes:
-      date:
-        start: ''
-        end: now
-      owner: 'Steinway Recording'
-      target: _blank
-      additional:
-        text: ''
   totop-8670:
     title: 'To Top'

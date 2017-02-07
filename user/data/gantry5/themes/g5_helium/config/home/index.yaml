@@ -1,5 +1,5 @@
 name: home
-timestamp: 1484776305
+timestamp: 1486418614
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -20,19 +20,18 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  logo:
-    logo-4003: 'Logo / Image'
   menu:
     menu-6886: Menu
   social:
     social-2627: Social
   owlcarousel:
     owlcarousel-2455: Header
+  contentarray:
+    contentarray-3134: 'Grav Content - intro'
+    contentarray-5864: 'Grav Content'
   custom:
-    custom-6355: Intro
     custom-3119: Soundcloud
     custom-7029: 'Custom HTML'
-    custom-8056: 'Custom HTML'
     custom-5513: 'Custom HTML'
     custom-1809: 'Custom HTML'
     custom-5907: 'Custom HTML'
@@ -41,8 +40,6 @@ particles:
     custom-3911: 'Custom HTML'
     custom-6307: 'Custom HTML'
     custom-4388: 'Custom HTML'
-  contentarray:
-    contentarray-3134: 'Grav Content'
   contenttabs:
     contenttabs-3854: Tabs
   copyright:
@@ -56,7 +53,6 @@ particles:
 inherit:
   default:
     navigation: navigation
-    logo-4003: logo-9608
     menu-6886: menu-6409
     social-2627: social-3171
     footer: footer

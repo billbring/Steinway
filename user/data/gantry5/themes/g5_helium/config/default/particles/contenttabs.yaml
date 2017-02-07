@@ -1,5 +1,5 @@
 enabled: '1'
 class: ''
 title: ''
-animation: left
+animation: fade
 items: {  }

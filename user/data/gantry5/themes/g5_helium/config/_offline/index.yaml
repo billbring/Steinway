@@ -1,5 +1,5 @@
 name: _offline
-timestamp: 1484419188
+timestamp: 1484951809
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -20,14 +20,9 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  logo:
-    logo-9608: 'Logo / Image'
-    logo-9571: 'Logo / Image'
   spacer:
     spacer-6015: Spacer
     spacer-8094: Spacer
-  social:
-    social-3171: Social
   custom:
     custom-7185: 'Custom HTML'
   content:

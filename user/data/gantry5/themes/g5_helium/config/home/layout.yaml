@@ -10,15 +10,13 @@ layout:
       - owlcarousel-2455
   /intro/:
     -
-      - custom-6355
-    -
       - contentarray-3134
   /features/:
     -
       - custom-3119
     -
       - 'custom-7029 62'
-      - 'custom-8056 38'
+      - 'contentarray-5864 38'
   /utility/:
     -
       - contenttabs-3854
@@ -59,6 +57,7 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
   features:
     type: section
     attributes:
@@ -105,14 +104,21 @@ structure:
 content:
   owlcarousel-2455:
     title: Header
-  custom-6355:
-    title: Intro
-    attributes:
-      html: "<h2 class=\"g-title\">studio, engineer, and piano.</h2>\n<div>\n  <p>Synopsis of services...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n</div>"
-    block:
-      variations: title-center
   contentarray-3134:
-    title: 'Grav Content'
+    title: 'Grav Content - intro'
+    attributes:
+      article:
+        filter:
+          categories: intro
+        limit:
+          total: '1'
+          columns: '1'
+          start: '0'
+        sort:
+          orderby: default
+          ordering: asc
+      css:
+        class: center
   custom-3119:
     title: Soundcloud
     attributes:
@@ -122,11 +128,20 @@ content:
   custom-7029:
     title: 'Custom HTML'
     attributes:
-      html: "<a href=\"/steinway/user/themes/g5_helium/images/gallery/steinway-piano.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/themes/g5_helium/images/gallery/steinway-piano.jpg\">\n</a>"
-  custom-8056:
-    title: 'Custom HTML'
+      html: "<a href=\"/steinway/user/pages/01.home/steinway-piano.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/pages/01.home/steinway-piano.jpg\">\n</a>"
+  contentarray-5864:
+    title: 'Grav Content'
     attributes:
-      html: '<h2 class="g-title">The Piano</h2><p>The instrument is a perfect Steinway model B (6’11” / 211 cm) number 579089 acquired from Steinway in 2007. This piano was selected from several model Bs in Steinway Hall, London for its balance of tone across the whole range. The action was immediately re-pinned, set up and regulated by the renowned Steinway technician Jeff Prett - a standard procedure for these world class pianos to ensure an absolute eveness of touch and tone for the pianist. Regular tuning, regulation and maintenance is carried out by Steinway trained technician <a href="http://www.peterroscoe.com/" target="_blank" title="Peter Roscoe">Peter Roscoe.</a></p>'
+      article:
+        filter:
+          categories: piano
+        limit:
+          total: '1'
+          columns: '1'
+          start: '0'
+        sort:
+          orderby: default
+          ordering: asc
   contenttabs-3854:
     title: Tabs
     attributes:
@@ -148,32 +163,32 @@ content:
   custom-5513:
     title: 'Custom HTML'
     attributes:
-      html: "<a href=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-01.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-01.jpg\">\n</a>"
+      html: "<a href=\"/steinway/user/pages/01.home/steinway-recording-01.jpg\"\n   data-rel=\"lightcase:gallery\" data-lc-options=\"{'maxWidth':1200, 'maxHeight':900}\" >\n    <img src=\"/steinway/user/pages/01.home/steinway-recording-01.jpg\">\n</a>"
   custom-1809:
     title: 'Custom HTML'
     attributes:
-      html: "<a href=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-05.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-05.jpg\">\n</a>"
+      html: "<a href=\"/steinway/user/pages/01.home/steinway-recording-05.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/pages/01.home/steinway-recording-05.jpg\">\n</a>"
   custom-5907:
     title: 'Custom HTML'
     attributes:
-      html: "<a href=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-03.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-03.jpg\">\n</a>"
+      html: "<a href=\"/steinway/user/pages/01.home/steinway-recording-03.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/pages/01.home/steinway-recording-03.jpg\">\n</a>"
   custom-4624:
     title: 'Custom HTML'
     attributes:
-      html: "<a href=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-04.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-04.jpg\">\n</a>"
+      html: "<a href=\"/steinway/user/pages/01.home/steinway-recording-04.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/pages/01.home/steinway-recording-04.jpg\">\n</a>"
   custom-4407:
     title: 'Custom HTML'
     attributes:
-      html: "<a href=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-02.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-02.jpg\">\n</a>"
+      html: "<a href=\"/steinway/user/pages/01.home/steinway-recording-02.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/pages/01.home/steinway-recording-02.jpg\">\n</a>"
   custom-3911:
     title: 'Custom HTML'
     attributes:
-      html: "<a href=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-06.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-06.jpg\">\n</a>"
+      html: "<a href=\"/steinway/user/pages/01.home/steinway-recording-06.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/pages/01.home/steinway-recording-06.jpg\">\n</a>"
   custom-6307:
     title: 'Custom HTML'
     attributes:
-      html: "<a href=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-07.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-07.jpg\">\n</a>"
+      html: "<a href=\"/steinway/user/pages/01.home/steinway-recording-07.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/pages/01.home/steinway-recording-07.jpg\">\n</a>"
   custom-4388:
     title: 'Custom HTML'
     attributes:
-      html: "<a href=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-09.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/themes/g5_helium/images/gallery/steinway-recording-09.jpg\">\n</a>"
+      html: "<a href=\"/steinway/user/pages/01.home/steinway-recording-09.jpg\"\n   data-rel=\"lightcase:gallery\"\n>\n    <img src=\"/steinway/user/pages/01.home/steinway-recording-09.jpg\">\n</a>"
